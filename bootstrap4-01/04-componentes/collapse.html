@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Collapse</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row mt-3">
+            <div class="col-6">
+                <p>
+                    <a href="#bloque1" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="bloque1" class="btn btn-primary">Bloque 1</a>
+                </p>
+                <div class="collapse" id="bloque1">
+                    <div class="card card-body">
+                        <h2>Titulo</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.s</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6">
+                <p>
+                    <a href="#bloque2" data-toggle="collapse" role="button" aria-expanded="false" aria-controls="bloque2" class="btn btn-primary">Bloque 2</a>
+                </p>
+                <div class="collapse" id="bloque2">
+                    <div class="card card-body">
+                        <h2>Titulo</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.s</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="row mt-3">
+            <div class="col">
+                <div id="accordion">
+                    <!-- Card #1-->
+                    <div class="card">
+                        <div class="card-header" id="header1">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link" data-toggle="collapse" data-target="#collapse1" aria-expanded="true" arial-controls="collapse1">
+                                    Contenido #1
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapse1" class="collapse show" arial-labelledby="header1" data-parent="#accordion">
+                            <div class="card-body">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus amet quaerat ipsa?
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card #2-->
+                    <div class="card">
+                        <div class="card-header" id="header2">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link" data-toggle="collapse" data-target="#collapse2" aria-expanded="true" arial-controls="collapse2">
+                                    Contenido #2
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapse2" class="collapse" arial-labelledby="header2" data-parent="#accordion">
+                            <div class="card-body">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus amet quaerat ipsa?
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

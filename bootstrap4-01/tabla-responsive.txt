@@ -1,0 +1,7 @@
+tamanio bootstrap 4:
+
+.col        Extra small - Smartphones vertical      Menos de 544px
+.col-sm     Small - Smartphones vertical            Mas de 544px y menos de 768 px
+.col-md     Medium - Tablets                        Mas de 768px y menos de 992px
+.col-lg     Large - Computers                       Mas de 992px y menos de de 1200px
+.col-xl     Extra large - Computers                 Mas de 1200px
