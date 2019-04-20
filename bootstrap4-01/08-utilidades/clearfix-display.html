@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ClearFix - Display</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <style>
+        .caja {
+            width: 100px;
+            height: 100px;
+            background: #000;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row mt-3">
+            <div class="col">
+                <div class="bg-primary text-white p-2 mb-4">Elemento tipo bloque</div>
+                <span class="bg-success text-white d-inline-block p-2 mb-4">Elemento de tipo linea (Convertidos a
+                    inline-block)</span>
+                <span class="bg-success text-white d-inline-block p-2 mb-4">Elemento de tipo linea (Convertidos a
+                    inline-block)</span>
+
+                <div class="bg-primary text-white d-inline-block p-2 mb-4">Elemento tipo bloque (Convertido a
+                    inline-block)</div>
+                <span class="bg-success text-white d-block p-2 mb-4">Elemento de tipo linea (Convertido a block)</span>
+            </div>
+
+        </div>
+        <div class="row mt-3">
+            <div class="col">
+                <div class="bg-primary">
+                    <div class="caja d-inline-block"></div>
+                    <div class="caja d-inline-block"></div>
+                </div>
+               
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col">
+
+                <div class="bg-primary clearfix">
+                    <div class="caja float-left d-inline-block"></div>
+                    <div class="caja float-right d-inline-block"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>
