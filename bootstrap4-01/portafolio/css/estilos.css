@@ -1,0 +1,98 @@
+body{
+    background: #f2f2f2;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    margin-top: 30px;
+}
+
+header .nav{
+    min-height: 80px;
+    overflow: hidden;
+    background: #fff;
+}
+
+/* --- Logo ----*/
+header .logo h2,
+header .logo span,
+header .logo p{
+    font-size: 16px;
+    display: inline-block;
+    margin: 0;
+}
+
+header .logo h2{
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+header .logo .icono{
+    color: #dfdfdf;
+}
+
+header .logo p{
+    color: #777777;
+}
+
+/* --- Menu ---*/
+
+header .menu{
+    padding: 0;
+}
+
+header .menu a{
+    display: block;
+    padding: 0 30px;
+    text-decoration: none;
+    color: #fff;
+}
+
+header .menu a div span{
+    font-weight: 600;
+}
+
+header .menu .c-1{background: #1F2525;}
+header .menu .c-2{background: #2F5759;}
+header .menu .c-3{background: #508B8E;}
+
+header .menu .c-1:hover{background: #3A4747;}
+header .menu .c-2:hover{background: #337073;}
+header .menu .c-3:hover{background: #73A9AC;}
+
+/* --- Media Queries---*/
+
+/* Dispositivo xl*/
+@media screen and (max-width: 1199px){}
+
+/* Dispositivo lg*/
+@media screen and (max-width: 991px){
+
+    .logo{
+        height: 76px;
+    }
+
+    .menu{
+        min-height: 76px;
+    }
+
+    .menu a, .menu a div{
+        width: 100%;
+    }
+}
+
+/* Dispositivo md*/
+@media screen and (max-width: 767px){}
+
+/* Dispositivo sm*/
+@media screen and (max-width: 575px){
+
+    header{
+        margin-top:0;
+    }
+
+    header .logo h2, 
+    header .logo p{
+        font-size: 12px;
+    }
+}
