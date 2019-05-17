@@ -60,6 +60,16 @@ header .menu .c-1:hover{background: #3A4747;}
 header .menu .c-2:hover{background: #337073;}
 header .menu .c-3:hover{background: #73A9AC;}
 
+
+/*--- Slider ---*/
+.slider{
+    margin-bottom: 40px;
+}
+
+.slider .col{
+    padding: 0;
+}
+
 /* --- Media Queries---*/
 
 /* Dispositivo xl*/
