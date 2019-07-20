@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Admin</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto:300,400,500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="barra-lateral col-12 col-sm-auto">
+                <div class="logo">
+                    <h2>Dashboard</h2>
+                </div>
+                <nav class="menu d-flex d-sm-block justify-content-center flex-wrap">
+                    <a href="#"><i class="fa fa-home" aria-hidden="true"></i><span>Inicio</span></a>
+                    <a href="#"><i class="fa fa-file-text" aria-hidden="true"></i><span>Entradas</span></a>
+                    <a href="#"><i class="fa fa-users" aria-hidden="true"></i><span>Usuarios</span></a>
+                    <a href="#"><i class="fa fa-cogs" aria-hidden="true"></i><span>Configuracion</span></a>
+                    <a href="#"><i class="fa fa-sign-out" aria-hidden="true"></i><span>Salir</span></a>
+
+                </nav>
+            </div>
+            <main class="main col">
+                <div class="row">
+                    <div class="columna col-lg-7">
+                        <div class="widget nueva_entrada">
+                            <h3 class="titulo">Nueva Entrada</h3>
+                            <form action="">
+                                <input type="text" placeholder="Titulo de entrada">
+                                <textarea
+                                    placeholder="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea accusantium nisi,repellat ipsa eligendi sapiente veritatis quo tenetur veniam consequatur.">
+                                </textarea>
+                                <div class="d-flex justify-content-end">
+                                    <button type="button"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>Enviar
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="columna col-lg-5">
+                        <div class="widget estadisticas">
+                            <h3 class="titulo">Estadisticas</h3>
+                            <div class="contenedor d-flex flex-wrap">
+                                <div class="caja">
+                                    <h3>13,444</h3>
+                                    <p>visitas</p>
+                                </div>
+                                <div class="caja">
+                                    <h3>13,000</h3>
+                                    <p>registros</p>
+                                </div>
+                                <div class="caja">
+                                    <h3>1,333</h3>
+                                    <p>ingresos</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="widget comentarios">
+                            <h3 class="titulo">Comentarios</h3>
+                            <div class="contenedor">
+                                <div class="comentario d-flex flex-wrap">
+                                    <div class="foto">
+                                        <a href="#">
+                                            <img src="img/batman.png" width="100" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="texto">
+                                        <a href="#">Batman</a>
+                                        <p>en <a href="#">Mi primer entrada</a></p>
+                                        <p class="texto-comentario">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse fuga fugit eum
+                                            consequuntur labore nihil debitis ipsa tempora.
+                                        </p>
+                                    </div>
+                                    <div class="botones d-flex justify-content-start flex-wrap w-100">
+                                        <button class="aprobar"><i class="fa fa-check"
+                                                aria-hidden="true"></i>Aprobar</button>
+                                        <button class="eliminar"><i class="fa fa-ban"
+                                                aria-hidden="true"></i>Cancelar</button>
+                                        <button class="bloquear"><i class="fa fa-flag" aria-hidden="true"></i>Bloquear
+                                            usuario</button>
+
+                                    </div>
+                                </div>
+                                <div class="comentario d-flex flex-wrap">
+                                    <div class="foto">
+                                        <a href="#">
+                                            <img src="img/linterna-verde.png" width="100" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="texto">
+                                        <a href="#">Batman</a>
+                                        <p>en <a href="#">Mi primer entrada</a></p>
+                                        <p class="texto-comentario">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse fuga fugit eum
+                                            consequuntur labore nihil debitis ipsa tempora.
+                                        </p>
+                                    </div>
+                                    <div class="botones d-flex justify-content-start flex-wrap w-100">
+                                        <button class="aprobar"><i class="fa fa-check"
+                                                aria-hidden="true"></i>Aprobar</button>
+                                        <button class="eliminar"><i class="fa fa-ban"
+                                                aria-hidden="true"></i>Cancelar</button>
+                                        <button class="bloquear"><i class="fa fa-flag" aria-hidden="true"></i>Bloquear
+                                            usuario</button>
+
+                                    </div>
+                                </div>
+                                <div class="comentario d-flex flex-wrap">
+                                    <div class="foto">
+                                        <a href="#">
+                                            <img src="img/spiderman.png" width="100" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="texto">
+                                        <a href="#">Batman</a>
+                                        <p>en <a href="#">Mi primer entrada</a></p>
+                                        <p class="texto-comentario">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse fuga fugit eum
+                                            consequuntur labore nihil debitis ipsa tempora.
+                                        </p>
+                                    </div>
+                                    <div class="botones d-flex justify-content-start flex-wrap w-100">
+                                        <button class="aprobar"><i class="fa fa-check"
+                                                aria-hidden="true"></i>Aprobar</button>
+                                        <button class="eliminar"><i class="fa fa-ban"
+                                                aria-hidden="true"></i>Cancelar</button>
+                                        <button class="bloquear"><i class="fa fa-flag" aria-hidden="true"></i>Bloquear
+                                            usuario</button>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>
